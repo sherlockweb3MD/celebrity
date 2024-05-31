@@ -1,0 +1,475 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  
+  body {
+    background: hsl(19.11504425,59.78835979%,37.05882353%);
+    color: #fff;
+    overflow-x: hidden;
+  }
+
+  .celebrity-nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: hsl(19.11504425,59.78835979%,37.05882353%);
+    width: 100%;
+    height: 10vh;
+    top: 0%;
+    left: 0%;
+    z-index: 1000;
+  }
+
+  .left-hand-nav {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .right-hand-nav {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .right-hand-nav a {
+    padding: 10px;
+    color: #e9ee63;
+    text-decoration: none;
+  }
+
+  #buy-now {
+    background: #e9ee63;
+    border-radius: 15px;
+    width: 100px;
+    height: 30%;
+    padding: 10px;
+    font-family: "Prata", serif;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+  }
+
+  .celebrity-text {
+    font-family: "Prata", serif;
+    color: #e9ee63;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 7px;
+  }
+
+  #celebrity-logo {
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  svg {
+    overflow: visible !important;
+  }
+  
+  .parallax-section {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    padding: 0 1rem;
+    transform-origin: center top;
+  }
+
+  .parallax-section-divider {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .parallax-left-section {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    }
+
+  .parallax-right-section {
+    width: 30%;
+    height: 100%;
+  }
+
+  .quotation-text {
+    font-family: "Prata", serif;
+    color: #e9ee63;
+    line-height: 2em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.7em;
+    text-align: center;
+  }
+  
+  #parallax-image {
+    height: 90vh;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 5%;
+    will-change: transform;
+  }
+  
+  .logo-section {
+    margin-left: 0px;
+    margin-top: 12vh;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .landing-page-text {
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wp_column-1 {
+    padding: 15px 50px;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 70%;
+    text-align: center;
+  }
+
+  .wp_column-2 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* border: 1px solid blue; */
+  }
+
+  #by_now_landing_btn {
+    background: #ebf217;
+    border-radius: 15px;
+    width: 200px;
+    height: 30%;
+    padding: 10px;
+    font-family: "Prata", serif;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+  }
+
+  #by_now_landing_btn a {
+    color: black;
+    text-decoration: none;
+  }
+
+  #landing-text {
+    font-family: "Prata", serif;
+    color: #e9ee63;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.8em;
+    text-align: center;
+  }
+
+  .landing-page-image {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    width: 30%;
+    height: 100%;
+  }
+
+  #lp_image {
+    width: 85%;
+    height: 85%;
+    border-radius: 20%;
+  }
+
+  .token-details-wrapper {
+    padding-top: 2vh;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    border-top: 1px solid #e9ee63;
+    border-bottom: 1px solid #e9ee63;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 100px; */
+    height: 50vh;
+    margin-bottom: 20px;
+  }
+
+  .token-details {
+    /* border: 1px solid red; */
+    width: 90%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+  }
+
+  .token-details-text {
+    font-family: "Volkhov", serif;
+    color: #e9ee63;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .details-link {
+    color: #e9ee63;
+  }
+
+  .ca-details {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+  }
+
+  .sub-token-details {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid green; */
+  }
+
+
+  .details-leading-text {
+    color: white;
+  }
+
+  #dexscreener-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .logo-section svg {
+    width: 60%;
+  }
+  
+  .grid-section {
+    width: 100%;
+    overflow: visible;
+    z-index: 2;
+  }
+  
+  .grid-layout {
+    display: flex;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    transform-origin: center top;
+  }
+  
+  .column {
+    height: 100%;
+  }
+  
+  .panel {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .column-content {
+    display: grid;
+    grid-template-rows: 45vh 45vh 45vh;
+    grid-gap: 1rem;
+    height: 100%;
+  }
+  
+  .grid-image {
+    width: 100%;  
+  }
+  
+  .grid-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .pin-section {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+  }
+  
+  .pin-content {
+    width: 230%;
+    height: 40vh;
+    display: grid;
+    column-gap: 0.9rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    will-change: transform;
+  }
+  
+  .pin-box {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    /* border: 1.5px solid white; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pin-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .pin-box-image-container {
+    width: 50%;
+    height: 100%;
+  }
+
+  .pin-box-text-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: hsl(19, 74%, 28%);
+  }
+
+  .clbrty-yap {
+    font-family: "Volkhov", serif;
+    color: #e9ee63;
+    font-weight: 700;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+
+  .footer-section {
+    height: 50vh;
+    width: 100vw;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    display: grid;
+    column-gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #e9ee63;
+    box-sizing: content-box;
+  }
+
+  .footer-section-1 {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    white-space: pre-wrap;
+  }
+  
+  .footer-section-2 {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    white-space: pre-wrap;
+  }
+
+  .footer-section-3 {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    white-space: pre-wrap;
+  }
+
+  .footer-text {
+    font-family: "Prata", serif;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8em;
+    font-style: normal;
+  }
+
+  .footer-text a {
+    color: black;
+  }
+
+  .spacer {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scroll-letter {
+    fill: #fff;
+  }
+  
+  .smoother-letter,
+  #mouse-wheel {
+    fill: #88ce02;
+  }
+  
+  .by-greensock-letter {
+    fill: #fff;
+    opacity: 0.6;
+  }
+  
+  #mouse-outline {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 13px;
+  }
